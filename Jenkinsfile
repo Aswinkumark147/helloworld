@@ -9,9 +9,9 @@ pipeline {
         stage('Install') {
             steps {
                 sh 'npm install'
-                npm i --save express
-                npm i --save-dev supertest should mocha
-                sudo npm i -g mocha
+                npm install --save express
+                npm install --save-dev supertest should mocha
+                sudo npm install -g mocha
             }
         }
                 
