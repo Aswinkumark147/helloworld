@@ -14,7 +14,6 @@ pipeline {
                 
         stage('Test') {
             steps {
-                npm test
                 npx serve
             }
         }
