@@ -16,7 +16,5 @@ pipeline {
                 sh 'npx serve'
             }
         }
-            }
-        }
     }
 }
