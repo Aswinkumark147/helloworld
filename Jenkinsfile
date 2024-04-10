@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh './deploy.sh'
+                sh 'home/aswinkumark147/deploy.sh'
             }
         }
     }
