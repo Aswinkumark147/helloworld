@@ -21,5 +21,10 @@ pipeline {
                 npx serve
             }
         }
+        stage('Deploy') {
+            steps {
+                sh './deploy.sh'
+            }
+        }
     }
 }
