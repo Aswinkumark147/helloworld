@@ -14,12 +14,13 @@ pipeline {
                 
         stage('Test') {
             steps {
-                npx test
+                npm test
             }
         }
         stage('Deploy') {
             steps {
                 sh 'chmod +x /home/aswinkumark147/deploy.sh'
+                sh '/home/aswinkumark147/deploy.sh'
             }
         }
     }
