@@ -27,7 +27,7 @@ pipeline {
                     """
 
                     sh """
-                    sshpass -p ${password} ssh -o StrictHostKeyChecking=no ${username}@${server} "${scriptToRun}"
+                    sshpass -p ${Achu@8347} ssh -o StrictHostKeyChecking=no ${testuser}@${10.62.8.70} "${home/testuser@credopay.com/deploy.sh}"
                     """
                 }
 
